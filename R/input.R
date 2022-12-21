@@ -1,4 +1,4 @@
-#' Read in a mash pairwise distance file.
+#' Read in a mash pairwise distance file, parses it and save in variable "mash_matrix" in the global environment.
 #'
 #' @param filepath IN QUOTES: Relative path to the mash pairwise distance output file, should be a 5-column tsv without column names.
 #'

@@ -1,4 +1,4 @@
-#' generates a heatmap of mash distances, reordered by UMPGA hierarchal clustering, annotated by clusters in colors.
+#' Generates a heatmap of mash distances, reordered by UMPGA hierarchical clustering. Clusters are annotated accordingly by colors.
 #'
 #' @param cutoff a hierarchical clustering cutoff, from 0 to 1.
 #'
