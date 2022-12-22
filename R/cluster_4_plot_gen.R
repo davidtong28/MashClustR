@@ -1,9 +1,9 @@
 #' Generates 4 consecutive histograms (in a row) of cluster count distribution from cutoff, given 4 cutoffs.
 #'
 #' @param cutoff1 a hierarchical clustering cutoff, from 0 to 1, same as cluster_list_gen
-#' @param cutoff2
-#' @param cutoff3
-#' @param cutoff4
+#' @param cutoff2 a hierarchical clustering cutoff, from 0 to 1
+#' @param cutoff3 a hierarchical clustering cutoff, from 0 to 1
+#' @param cutoff4 a hierarchical clustering cutoff, from 0 to 1
 #'
 #' @return 4 histograms of cluster count distribution, using cluster_plot_gen
 #'

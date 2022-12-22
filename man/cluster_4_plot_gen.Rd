@@ -9,7 +9,11 @@ cluster_4_plot_gen(cutoff1, cutoff2, cutoff3, cutoff4)
 \arguments{
 \item{cutoff1}{a hierarchical clustering cutoff, from 0 to 1, same as cluster_list_gen}
 
-\item{cutoff4}{}
+\item{cutoff2}{a hierarchical clustering cutoff, from 0 to 1}
+
+\item{cutoff3}{a hierarchical clustering cutoff, from 0 to 1}
+
+\item{cutoff4}{a hierarchical clustering cutoff, from 0 to 1}
 }
 \value{
 4 histograms of cluster count distribution, using cluster_plot_gen

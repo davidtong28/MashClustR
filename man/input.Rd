@@ -2,7 +2,7 @@
 % Please edit documentation in R/input.R
 \name{input}
 \alias{input}
-\title{Read in a mash pairwise distance file.}
+\title{Read in a mash pairwise distance file, parses it and save in variable "mash_matrix" in the global environment.}
 \usage{
 input(filepath)
 }
@@ -13,5 +13,5 @@ input(filepath)
 parsed distance matrix saved in variable "mash_matrix" in the global environment. Do not have other variables with the same name in .GlobalEnv.
 }
 \description{
-Read in a mash pairwise distance file.
+Read in a mash pairwise distance file, parses it and save in variable "mash_matrix" in the global environment.
 }

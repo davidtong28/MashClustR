@@ -5,13 +5,14 @@
 #' @return parsed distance matrix saved in variable "mash_matrix" in the global environment. Do not have other variables with the same name in .GlobalEnv.
 #'
 #' @import dplyr
+#'          readr
 #'
 #' @export
 
 input <- function(filepath){
 mash_dist <-read_tsv(filepath,col_names = c("Query","Reference","Distance","p_value","matched_hashes"))%>%
     select (c(1,2,3)) %>%
-    mutate(Query=as.factor(Query),Reference=as.factor(Reference)) %>%
+    mutate(Query=as.factor(Query),Reference=as.factor(Reference))%>%
     as.data.frame()
 
 mash_matrix <- xtabs(mash_dist[,3] ~ mash_dist[,1] + mash_dist[,2]) %>%

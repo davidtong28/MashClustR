@@ -2,7 +2,7 @@
 % Please edit documentation in R/draw_heatmap.R
 \name{draw_heatmap}
 \alias{draw_heatmap}
-\title{generates a heatmap of mash distances, reordered by UMPGA hierarchal clustering, annotated by clusters in colors.}
+\title{Generates a heatmap of mash distances, reordered by UMPGA hierarchical clustering. Clusters are annotated accordingly by colors.}
 \usage{
 draw_heatmap(cutoff)
 }
@@ -13,5 +13,5 @@ draw_heatmap(cutoff)
 a heatmap. Currently only supports annotating 50 clusters or less. Adjust threshold accordingly.
 }
 \description{
-generates a heatmap of mash distances, reordered by UMPGA hierarchal clustering, annotated by clusters in colors.
+Generates a heatmap of mash distances, reordered by UMPGA hierarchical clustering. Clusters are annotated accordingly by colors.
 }

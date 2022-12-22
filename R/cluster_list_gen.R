@@ -9,5 +9,5 @@
 #' @export
 cluster_list_gen <- function(cutoff){
   as_tibble(as.data.frame(cutree(hclust(d = mash_matrix,method = "average"),h=cutoff)) %>%
-  rename(cluster=1),rownames = "phage")
+  rename(cluster=1),rownames = "sequence")
 }
