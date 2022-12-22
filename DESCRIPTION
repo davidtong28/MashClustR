@@ -1,7 +1,7 @@
 Package: MashClustR
 Type: Package
 Title: R package for clustering and visualizing pairwise Mash distance data
-Version: 0.1.0
+Version: 1.1.0
 Author: davidtong28
 Maintainer: davidtong28 <tongshanwei@tju.edu.cn>
 Description: Mash (Fast genome and metagenome distance estimation using MinHash) is a commonly used tool for fast distance estimation of sequences, including building a pairwise distance matrix for a set of sequences. MashClustR is a simple R package that is able to use the pairwise distance results from Mash to divide the sequences into clusters using UMGPA hierarchical clustering method. It is also able to compare different threshold of clustering, and generate visualization for the clustering results.
